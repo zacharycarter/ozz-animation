@@ -31,3 +31,13 @@ target_link_libraries(custom_animation_importer
 set_target_properties(custom_animation_importer
   PROPERTIES FOLDER "howtos")
 add_test(NAME custom_animation_importer COMMAND custom_animation_importer)
+
+# math conversions
+
+add_executable(math_conversions
+  math_conversions.cc)
+target_link_libraries(math_conversions
+  ozz_base)
+set_target_properties(math_conversions
+  PROPERTIES FOLDER "howtos")
+add_test(NAME math_conversions COMMAND math_conversions)
