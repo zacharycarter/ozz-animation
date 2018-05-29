@@ -28,6 +28,8 @@
 #include "ozz/base/maths/simd_math.h"
 #include "ozz/base/maths/vec_float.h"
 
+#include <cstdlib>
+
 // Code for ozz-animation HowTo: "How to convert between maths types?"
 
 int main(int argc, char const* argv[]) {
