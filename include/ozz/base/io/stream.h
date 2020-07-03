@@ -159,7 +159,6 @@ class MemoryStream : public Stream {
   // See Stream::Tell for details.
   virtual size_t Size() const;
 
- private:
   // Resizes buffers size to _size bytes. If _size is less than the actual
   // buffer size, then it remains unchanged.
   // Returns true if the buffer can contains _size bytes.
